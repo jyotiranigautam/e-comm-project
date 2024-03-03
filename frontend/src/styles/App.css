@@ -16,6 +16,49 @@
     --mainColorShadow: #d27d979f;
 }
 
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+a {
+    color: var(--blackColor);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    text-decoration: none!important;
+    outline: 0 !important;
+}
+
+a:hover {
+    color: var(--mainColor2);
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -324,7 +367,7 @@ popular-categories
     /* margin: 0 15px; */
     position: relative;
     display: inline-block;
-  
+
 }
 
 .categories-item:hover .popular-categories__item-hover {
@@ -389,58 +432,10 @@ popular-categories
 info blocks
 ================================================================*/
 
-
-.info-blocks__item .info-blocks__item-img {
-    /* width: 50%; */
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    height: 100%;
-    display: flex;
-}
-
-
-.info-blocks__item .info-blocks__item-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.info-blocks__item {
-    background-image: url('../images/info-item-bg1.jpg');
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-}
-
 .info-blocks__item .row {
-    --bs-gutter-x: 0; /* Reset to the default value of 0 to remove gutter padding */
+    --bs-gutter-x: 0;
+  
 }
-.info-blocks__item-text {
-    width: 50%;
-    height: 100vh;
-    padding: 100px 100px ;
-    
-}
-
-
-.info-blocks .info-blocks__item-subheading {
-    font-size: 20px;
-    width: 70%;
-}
-
-.info-blocks .info-blocks__item-descr {
-    width: 70%;
-}
-
-.info-blocks__item {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-color: #faf9ff;
-}
-
 
 /* ----------- */
 
@@ -452,23 +447,48 @@ info blocks
     background-color: #fcedea;
 }
 
-.info-blocks__item-img .row {
-    padding-right:0;
-    padding-left: 0;
+
+.info-blocks__item-text_reverse {
+    width: 50%;
+    height: 100vh;
+    padding: 100px 100px;
+
 }
+
+.info-blocks .info-blocks__item-text_reverse {
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+@media (max-width: 992px) {
+    .info-blocks__item_reverse {
+      flex-direction: row;
+    }
+  
+    .info-blocks__item-text_reverse {
+      width: 100%;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+  }
+
 .info-blocks__item_reverse .info-blocks__item-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 
+
+
 .info-blocks__item_reverse .info-blocks__item-img {
-    width: 50%;
-    /* position: absolute; */
+ 
     top: 0;
     left: 0;
     height: 100%;
     display: flex;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .info-blocks__item_reverse .about-link {
@@ -495,22 +515,13 @@ info blocks
     animation: slideRight 0.3s ease-in-out forwards;
 }
 
-@keyframes slideRight {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(5px);
-        /* Adjust the value as needed */
-    }
-}
-
+@media (min-width: 992px) {
 .info-blocks__item_reverse {
     background-image: url('../images/info-item-bg2.png');
     background-repeat: no-repeat;
     background-position: 0;
 
+}
 }
 
 
@@ -634,6 +645,8 @@ stay-in-touch
     gap: 20px;
 }
 
+
+
 .stay-in-touch .box-field__row .box-field {
     width: 30%;
 }
@@ -712,9 +725,11 @@ footer .wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
+    color: #bbb;
+    font-size: 30px;
 }
 
-.footer-top__social span {
+.footer-nav__col-title {
     font-size: 25px;
     line-height: 170%;
     color: #999;
@@ -726,12 +741,13 @@ footer .wrapper {
 .footer-top__social ul {
     display: flex;
     list-style: none;
+
 }
 
 .footer-top__social ul li {
     margin-right: 10px;
     list-style: none;
-
+  
 }
 
 .footer-icon {
@@ -746,6 +762,16 @@ footer .wrapper {
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, .1);
+}
+
+.footer-nav__col ul li{
+    color: #bbb;
+}
+
+.footer-nav__col ul li a{
+    color: #bbb;
+    padding: 2px;
+    
 }
 
 .footer-top__payments {
