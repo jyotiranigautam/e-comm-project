@@ -30,7 +30,7 @@ const Footer = () => {
               </ul>
             </div> */}
           </div>
-          <div className="footer-nav">
+          <div className="footer-nav mt-4">
             <div className='row'>
               <div className="col-lg-3 col-md-6 footer-nav__col">
                 <span className="footer-nav__col-title">About</span>

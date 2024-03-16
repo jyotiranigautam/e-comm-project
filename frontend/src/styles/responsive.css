@@ -23,6 +23,54 @@
         width: 70%;
     }
 
+    .promotion-video .video-container {
+        padding: 100px;
+    }
+
+
+    .discount-info {
+        width: 50%;
+        padding: 10px 0 186px 10px;
+    }
+
+    .discount {
+        color: var(--mainColor);
+        background-image: url('../images/strock.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .offer-banner .offer-banner-heading .offer-banner-description {
+        color: black;
+    }
+
+    .offer-banner .offer-banner-description {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .success-story h2 {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .success-story__item-text {
+        width: 50%;
+        padding: 10px 0 186px 10px;
+    }
+
+
+    .success-story .success-story__item-subheading {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .success-story .success-story__item-descr {
+        width: 80%;
+    }
+
+
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -54,6 +102,59 @@
     .info-blocks .info-blocks__item-descr {
         font-size: 15px;
         width: 100%;
+    }
+
+    .detail-block__item{
+        width: 100%;
+    }
+
+    .detail-block__item-info {
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .discount-info {
+        width: 50%;
+        padding: 10px 0 186px 10px;
+    }
+
+    .discount {
+        color: var(--mainColor);
+        background-image: url('../images/strock.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .offer-banner .offer-banner-heading .offer-banner-description {
+        color: black;
+    }
+
+    .offer-banner .offer-banner-description {
+        font-size: 18px;
+        width: 70%;
+    }
+
+
+    /* ------------------success story---------------  */
+
+    .success-story h2 {
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .success-story__item-text {
+        width: 50%;
+        padding: 10px 0 186px 10px;
+    }
+
+
+    .success-story .success-story__item-subheading {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .success-story .success-story__item-descr {
+        width: 80%;
     }
 
 }
@@ -102,13 +203,89 @@
         display: flex;
         margin-top: 30px;
         justify-content: space-between;
-       
+
     }
 
     .stay-in-touch .box-field__row .box-field {
         width: 100%;
     }
-    
+
+    /* ---------about details-block------------- */
+
+    .detail-block__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 100px 15px;
+        padding: 15px;
+    }
+
+    .detail-block__item-info {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .detail-block__item-info h6 {
+        font-size: 14px;
+    }
+
+    .detail-block__item-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .video-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .discount-info {
+        width: 50%;
+        padding: 10px 0 186px 10px;
+    }
+
+    .discount {
+        color: var(--mainColor);
+        background-image: url('../images/strock.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .offer-banner .offer-banner-heading .offer-banner-description {
+        color: black;
+    }
+
+    .offer-banner .offer-banner-description {
+        font-size: 17px;
+        width: 80%;
+    }
+
+    /* ------------------success story---------------  */
+
+    .success-story h2 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .success-story__item-text {
+        width: 60%;
+        padding: 10px 0 166px 30px;
+    }
+
+
+    .success-story .success-story__item-subheading {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .success-story .success-story__item-descr {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .success-story .default-button {
+        margin-top: 30px !important;
+    }
 }
 
 @media (max-width :767px) {
@@ -136,8 +313,8 @@
         border: none;
     }
 
-     /* --info-blocks--- */
-     .info-blocks .info-heading {
+    /* --info-blocks--- */
+    .info-blocks .info-heading {
         font-size: 30px;
     }
 
@@ -151,9 +328,113 @@
         width: 100%;
     }
 
-    .footer-nav .row{
+    .footer-nav .row {
         justify-content: center;
         align-items: center;
+    }
+
+    /* ---------about details-block------------- */
+
+    .detail-block__item {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 100px 15px;
+        padding: 15px;
+    }
+
+    .detail-block__item-info {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .detail-block__item-info h6 {
+        font-size: 14px;
+    }
+
+    .detail-block__item-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .count-details .count-box h2 {
+        font-size: 40px;
+    }
+
+    
+    .discount-info {
+        width: 50%;
+        padding: 10px 0 186px 10px;
+    }
+
+    .discount {
+        color: var(--mainColor);
+        background-image: url('../images/strock.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .offer-banner .offer-banner-heading .offer-banner-description {
+        color: black;
+    }
+
+    .offer-banner .offer-banner-description {
+        font-size: 17px;
+        width: 100%;
+    }
+
+
+    /* ------------------success story---------------  */
+
+    .success-story h2 {
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .success-story__item-text {
+        width: 60%;
+        padding: 10px 0 166px 30px;
+    }
+
+
+    .success-story .success-story__item-subheading {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .success-story .success-story__item-descr {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .success-story .default-button {
+        margin-top: 30px !important;
+    }
+
+
+    .stay-in-touch .box-field__row {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: space-between;
+
+
+    }
+
+    .stay-in-touch .box-field__row .box-field {
+        width: 100%;
+    }
+
+    .stay-in-touch .wraper {
+        padding: 0 20px;
+        margin: 0px;
+    }
+
+    .stay-in-touch .inner-wrapper {
+        margin-top: 40px;
+        padding: 20px;
     }
 }
 
@@ -168,4 +449,171 @@
     .offer-banner-description {
         font-size: 15px;
     }
+
+    /* ---------about details-block------------- */
+
+    .detail-block__item {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 50px;
+        padding: 10px;
+    }
+
+    .detail-block__item-info {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .detail-block__item-info h6 {
+        font-size: 14px;
+    }
+
+    .detail-block__item-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .count-details .count-box h2 {
+        font-size: 40px;
+    }
+
+    .count-details h2 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .slick-prev:before {
+        margin-left: 20px;
+
+    }
+
+    .slick-next:before {
+        margin-left: -30px;
+    }
+
+    .discount-info {
+        width: 100%;
+        padding: 20px 0 186px 20px;
+        
+    }
+
+    .offer-banner {
+        background-image: none;
+        background-color: var(--mainColorLight);
+        margin-top: 100px;
+   
+    }
+
+  
+
+    .discount {
+        color: var(--mainColor);
+        background-image: url('../images/strock.png');
+        background-position: center center;
+        background-size: cover;
+     
+    }
+
+    .offer-banner .offer-banner-heading {
+        display: flex;
+    
+    }
+    .offer-banner .offer-banner-heading .offer-banner-description {
+        color: black;
+    }
+
+    .offer-banner .offer-banner-description {
+        font-size: 17px;
+        width: 90%;
+    }
+
+
+    /* ------------------success story---------------  */
+
+
+    .success-story {
+        background-image: none;
+        background-color: var(--mainColorLight);
+        margin-top: 150px;
+    }
+
+    .success-story .wrapper {
+        width: 100%;
+    }
+
+    .success-story h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .success-story__item-text {
+        padding-top: 40px;
+        width: 100%;
+        /* padding: 10px 0 166px 30px; */
+    }
+
+
+    .success-story .success-story__item-subheading {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .success-story .success-story__item-descr {
+        font-size: 15px;
+    }
+
+    .success-story .default-button {
+        margin-top: 30px !important;
+    }
+
+    .stay-in-touch .stay-in-touch_box {
+        background-image: url('../images/banner_contact.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    
+        /* display: flex;
+        align-items: center;
+        padding: 0 87px 0 60px; */
+        overflow: hidden;
+    }
+
+    .stay-in-touch .wraper {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .stay-in-touch .inner-wrapper {
+        padding: 15px;
+    }
+
+    .stay-in-touch .box-field__row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        justify-content: space-between;
+
+    }
+
+    .stay-in-touch .box-field__row .box-field {
+        width: 100%;
+    }
+
+    .footer-top__social  {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+     
+    }
+
+    .footer-top__social ul{
+       padding-left: 0px;
+    }
+
+    
+
 }
