@@ -137,10 +137,10 @@ const Home = () => {
         <div>
 
           <div className='offer-banner-content container pt-5'>
-            <div className='wrapper'>
+            <div className='wrapper my-5'>
               <div className="discount-info">
                 <div className='main-text'>Discount</div>
-                <h1 className='offer-banner-heading main-heading'>Get Your <br /><span className='discount'>50%</span> Off</h1>
+                <h1 className='offer-banner-heading main-heading '>Get Your <br /><span className='discount mx-2'>50%</span> Off</h1>
                 <div className='offer-banner-description main-description'>
                   Nourish your skin with toxin-free cosmetic products. With the
                   offers that you can’t refuse.
