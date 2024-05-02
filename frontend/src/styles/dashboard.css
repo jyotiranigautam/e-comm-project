@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tenor+Sans&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+:root {
+    --fontFamily: "Work Sans", sans-serif;
+    --commanfontfamily: 'Tenor Sans', sans-serif;
+    --mainColor: #d05278;
+    --mainColorLight: rgba(252, 237, 234, 0.914);
+    --mainColor2: rgb(197, 46, 91);
+    --whiteColor: #ffffff;
+    --blackColor: #221638;
+    --fontSize: 15px;
+    --transition: 0.5s;
+    --mainColorShadow: #d27d979f;
+}
+
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.breadcrumb .breadcrumb-home {
+    color: var(--blackColor);
+}
+
+
+a {
+    color: var(--blackColor);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    text-decoration: none !important;
+    outline: 0 !important;
+}
+
+a:hover {
+    color: var(--mainColor2);
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.main-text {
+    /* font-family: 'Great Vibes', cursive;
+font-family: 'Tenor Sans', sans-serif; */
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 40px;
+    font-style: italic;
+    /* margin-top: 100px; */
+    color: var(--mainColor);
+}
+
+.default-button {
+    background-color: var(--mainColor);
+    font-size: 15px;
+    border-radius: 0%;
+    padding: 18px 40px;
+    font-weight: 700;
+    border: none;
+}
+
+/* ----manage-products--- */
+
+.admin .navbar-toggler{
+    right: 0;
+}
+
+.navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.admin-page{
+    width: 80%;
+    margin-left: 20%;
+}
+
+@media(max-width: 1200px){
+    .admin-page{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: var(--mainColorShadow);
+    width: 20%;
+    position: fixed;
+
+}
+
+.menus .ul{
+    padding-left: 0;
+}
+.menus .menu-item {  
+  margin: 2px;
+  
+}
+
+.menus .menu-item .nav-link{
+    padding: 10px;
+    border-bottom: 1px solid var(--mainColorLight);
+}
+
+.menus .menu-item :hover{
+    background-color: var(--mainColorShadow);
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
